@@ -61,7 +61,7 @@ namespace SampleApp{
             }
         }
         static void StudentsCommandsHandler(List<Student> students){
-            Console.WriteLine("Активирован режим вывода списка студентов доступные команды");
+            Console.WriteLine("Активирован режим вывода списка студентов доступные команды:");
             string helpStudents = "all: все студенты,\nexcel: отличники,\nunsat: с одной+ неудовлетв. оценкой,\nback: назад";
             Console.WriteLine(helpStudents);
             while (true) {
