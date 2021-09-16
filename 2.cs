@@ -8,8 +8,8 @@ namespace SampleApp
             while (true) {
                 Console.Write(">>> ");
                 string input = Console.ReadLine();
-                int value;
-                if(int.TryParse(input, out value)){
+                float value;
+                if(float.TryParse(input, out value)){
                     Console.WriteLine("Is number!");
                 } else {
                     Console.WriteLine("Not a number!");
